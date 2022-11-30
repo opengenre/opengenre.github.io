@@ -11,17 +11,22 @@
     top: 8px;
     left: 16px;
   }
-  img {
+  #img1 {
     border: 7px;
     border-style: solid;
     border-color: indianred;
     width: 600px;
   }
+  #img2 {
+    border: 7px;
+    border-style: solid;
+    border-color: aliceblue;
+    scale: 70%;
+  }
   section {
     min-height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   #sec-1 {
@@ -32,7 +37,16 @@
     background-color: IndianRed;
   }
   #sec-2 {
+    align-items: center;
     background-color: aliceblue;
+  }
+  #sec-3 {
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: IndianRed;
   }
   .scroll-down {
     height: 50px;
